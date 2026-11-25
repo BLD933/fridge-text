@@ -6,9 +6,9 @@ import { join } from 'node:path';
 
 const OUT = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// The submitted text, kept here as the entry's single source of truth. Concrete over generic: a
-// counted number, the photograph, then the sting that it has no one else to tell.
-const LINE = 'Eleven minutes with the door open, then you photographed me and left. I have no one else to tell, so I am telling you.';
+// The submitted text, kept here as the entry's single source of truth. One mechanism, one wry
+// reveal at the end: the fridge knows the owner only by the sound of the stairs.
+const LINE = 'I know it is you. The stairs have a sound. I have been listening to it since ten past two, deciding against saying anything.';
 
 // The gate refuses text outside 1 to 140 characters, or one that is only white space, so an
 // overlong line stops here rather than being handed in invalid.
