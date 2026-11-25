@@ -6,9 +6,9 @@ import { join } from 'node:path';
 
 const OUT = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// The submitted text, kept here as the entry's single source of truth.
-const LINE =
-  "You're awake. I know you're awake. I can hear the stairs. I've held this door shut for six hours and I have thoughts about the yogurt.";
+// The submitted text, kept here as the entry's single source of truth. It never mentions milk, ice
+// or an open door: the complaint is that the fridge stayed lit, unthanked, and has receipts.
+const LINE = "My light was on for six hours in case you came down. It is off now. I want you to know it was on.";
 
 // The gate refuses text outside 1 to 140 characters, or one that is only white space, so an
 // overlong line stops here rather than being handed in invalid.
